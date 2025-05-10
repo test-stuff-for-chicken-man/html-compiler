@@ -8,7 +8,7 @@ window.onload = function() {
     
     x = document.getElementById("ta")
 
-    let val = "live";
+    let val = "editor";
 
     function mode_check() {
 
