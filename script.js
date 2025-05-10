@@ -8,7 +8,7 @@ window.onload = function() {
     
     x = document.getElementById("ta")
 
-    let val = "editor";
+    let val = "live";
 
     function mode_check() {
 
@@ -138,7 +138,7 @@ window.onload = function() {
             download(code, "your_code", "html")
         }
     });
-
+val = "editor";
     function download(code, name, type) {
         saveAs(
             new Blob(
