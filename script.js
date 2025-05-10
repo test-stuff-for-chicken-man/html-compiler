@@ -138,7 +138,8 @@ window.onload = function() {
             download(code, "your_code", "html")
         }
     });
-val = "editor";
+    val = "editor";
+    editor_mode(); 
     function download(code, name, type) {
         saveAs(
             new Blob(
@@ -148,4 +149,4 @@ val = "editor";
             ), name + '.' + type
         );
     }
-}
+
